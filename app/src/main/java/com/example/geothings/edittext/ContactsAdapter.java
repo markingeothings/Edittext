@@ -15,22 +15,30 @@ import java.util.List;
  */
 
 public class ContactsAdapter extends RecyclerView.Adapter<ContactsAdapter.ViewHolder> {
-    public static class ViewHolder extends RecyclerView.ViewHolder{
+
+
+    private final LayoutInflater mLayoutInflater;
+    private final Context mContext;
+
+    public static class ViewHolder extends RecyclerView.ViewHolder {
         public TextView nameTextView;
         public ImageView imagesView;
 
-        public ViewHolder(View itemView){
+
+        public ViewHolder(View itemView) {
             super(itemView);
 
             nameTextView = (TextView) itemView.findViewById(R.id.tv_name);
-            imagesView = (ImageView)itemView.findViewById(R.id.iv_image);
+            imagesView = (ImageView) itemView.findViewById(R.id.iv_image);
         }
     }
 
     private List<Contact> mContacts;
 
-    public ContactsAdapter(List<Contact> contacts){
+    public ContactsAdapter(Context context, List<Contact> contacts) {
         mContacts = contacts;
+        this.mContext = context;
+        mLayoutInflater = LayoutInflater.from(context);
     }
 
     @Override

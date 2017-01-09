@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    　　
+    <string-array name="district2">
+        　　
+        <item>godf</item>
+        　　
+        <item>sdsdg</item>
+        　　
+        <item>f</item>
+        　　
+        <item>aa</item>
+        　　
+        <item>dfsdfasdfsd</item>
+        　　
+    </string-array>
+
+    <string-array name="district1">
+        　　
+        <item>丰台区</item>
+        　　
+        <item>石景山区</item>
+        　　
+        <item>海淀区</item>
+        　　
+        <item>漳州市</item>
+        　　
+        <item>朝阳区</item>
+        　　
+    </string-array>
+    　　
+
+    <string-array name="districtNames">
+        　　
+        <item>name1</item>
+        　　
+        <item>name2</item>
+        　　
+        <item>name3</item>
+        　　
+        <item>name4</item>
+        　　
+        <item>name5</item>
+        　　
+    </string-array>
+    <string-array name="district3">
+        　　
+        <item>丰</item>
+        　　
+        <item>石</item>
+        　　
+        <item>海</item>
+        　　
+        <item>漳</item>
+        　　
+        <item>朝</item>
+        　　
+    </string-array>
+    <string-array name="district4">
+        　　
+        <item>区</item>
+        　　
+        <item>石区</item>
+        　　
+        <item>淀区</item>
+        　　
+        <item>州市</item>
+        　　
+        <item>阳区</item>
+        　　
+    </string-array>
+    <string-array name="district5">
+        　　
+        <item>1</item>
+        　　
+        <item>2</item>
+        　　
+        <item>3</item>
+        　　
+        <item>4</item>
+        　　
+        <item>5</item>
+        　　
+    </string-array>
+</resources>
